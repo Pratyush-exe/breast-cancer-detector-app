@@ -1,0 +1,32 @@
+model 9 has lowest accuracy
+model 14 is trained with least dataset
+
+For model model1.h5  Accuracy: 0.525  Correct: 1575  Wrong: 1425
+For model model2.h5  Accuracy: 0.57  Correct: 1710  Wrong: 1290
+For model model3.h5  Accuracy: 0.7023333333333334  Correct: 2107  Wrong: 893
+For model model4.h5  Accuracy: 0.5376666666666666  Correct: 1613  Wrong: 1387
+For model model5.h5  Accuracy: 0.8303333333333334  Correct: 2491  Wrong: 509
+For model model6.h5  Accuracy: 0.788  Correct: 2364  Wrong: 636
+For model model7.h5  Accuracy: 0.7843333333333333  Correct: 2353  Wrong: 647
+For model model8.h5  Accuracy: 0.83  Correct: 2490  Wrong: 510
+For model model9.h5  Accuracy: 0.7886666666666666  Correct: 2366  Wrong: 634
+For model model10.h5  Accuracy: 0.8323333333333334  Correct: 2497  Wrong: 503
+For model model11.h5  Accuracy: 0.81  Correct: 2430  Wrong: 570
+For model model12.h5  Accuracy: 0.7463333333333333  Correct: 2239  Wrong: 761
+For model model13.h5  Accuracy: 0.8016666666666666  Correct: 2405  Wrong: 595
+For model model14.h5  Accuracy: 0.6803333333333333  Correct: 2041  Wrong: 959
+
+
+For model model1.h5  Accuracy: 0.7493333333333333  Correct: 2248  Wrong: 752
+For model model2.h5  Accuracy: 0.7493333333333333  Correct: 2248  Wrong: 752
+For model model3.h5  Accuracy: 0.7503333333333333  Correct: 2251  Wrong: 749
+For model model4.h5  Accuracy: 0.7493333333333333  Correct: 2248  Wrong: 752
+For model model5.h5  Accuracy: 0.7766666666666666  Correct: 2330  Wrong: 670
+For model model6.h5  Accuracy: 0.795  Correct: 2385  Wrong: 615
+For model model7.h5  Accuracy: 0.7556666666666667  Correct: 2267  Wrong: 733
+For model model8.h5  Accuracy: 0.7663333333333333  Correct: 2299  Wrong: 701
+For model model9.h5  Accuracy: 0.7986666666666666  Correct: 2396  Wrong: 604
+For model model10.h5  Accuracy: 0.768  Correct: 2304  Wrong: 696
+For model model11.h5  Accuracy: 0.795  Correct: 2385  Wrong: 615
+For model model12.h5  Accuracy: 0.7843333333333333  Correct: 2353  Wrong: 647
+For model model13.h5  Accuracy: 0.7806666666666666  Correct: 2342  Wrong: 658
