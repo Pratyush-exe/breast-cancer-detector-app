@@ -67,11 +67,7 @@ def upload():
 
         # Make prediction
         preds = model_predict(file_path, model)
-
-        # Process your result for human
-        # pred_class = preds.argmax(axis=-1)            # Simple argmax
-        pred_class = decode_predictions(preds, top=1)   # ImageNet Decode
-        result = str(pred_class[0][0][1])               # Convert to string
+        result = str(preds[0][0])              # Convert to string
         return result
     return None
 
