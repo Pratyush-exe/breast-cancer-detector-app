@@ -2,7 +2,7 @@ import numpy as np
 from flask import Flask, request, jsonify, render_template
 # import pickle
 from keras.models import load_model
-from cv2 import cv2
+import cv2
 
 app = Flask(__name__)
 model = load_model('model3.h5')
