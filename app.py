@@ -41,7 +41,7 @@ def model_predict(img_path, model):
 
     # Be careful how your trained model deals with the input
     # otherwise, it won't make correct prediction!
-    x = preprocess_input(x, mode='caffe')
+#     x = preprocess_input(x, mode='caffe')
 
     preds = model.predict(x)
     return preds
@@ -68,10 +68,10 @@ def upload():
     f.save(file_path)
 
     # Make prediction
-    #preds = model_predict(file_path, model)
-    #result = str(preds[0][0])              # Convert to string
-    #return result
-    return 'working'
+    preds = model_predict(file_path, model)
+    result = str(preds[0][0])              # Convert to string
+    return result
+#     return 'working'
 #return None
 
 
