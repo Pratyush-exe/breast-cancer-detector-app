@@ -69,7 +69,7 @@ def upload():
 
     # Make prediction
     preds = model_predict(file_path, model)
-    result = str(preds[0][0])              # Convert to string
+    result = str(preds)              # Convert to string
     return result
 #     return 'working'
 #return None
