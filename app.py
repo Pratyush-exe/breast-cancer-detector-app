@@ -55,21 +55,22 @@ def index():
 
 @app.route('/predict', methods=['GET', 'POST'])
 def upload():
-    if request.method == 'POST':
+#     if request.method == 'POST':
         # Get the file from post request
-        f = request.files['file']
+    f = request.files['file']
 
-        # Save the file to ./uploads
-        basepath = os.path.dirname(__file__)
-        file_path = os.path.join(
-            basepath, 'uploads', secure_filename(f.filename))
-        f.save(file_path)
+    # Save the file to ./uploads
+    basepath = os.path.dirname(__file__)
+    file_path = os.path.join(
+        basepath, 'uploads', secure_filename(f.filename))
+    f.save(file_path)
 
-        # Make prediction
-        preds = model_predict(file_path, model)
-        result = str(preds[0][0])              # Convert to string
-        return result
-    return None
+    # Make prediction
+    #preds = model_predict(file_path, model)
+    #result = str(preds[0][0])              # Convert to string
+    #return result
+    return 'working'
+#return None
 
 
 if __name__ == '__main__':
