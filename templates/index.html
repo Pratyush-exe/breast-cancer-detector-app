@@ -1,11 +1,11 @@
 {% extends "base.html" %} {% block content %}
 
-<h2>Image Classifier</h2>
+<h2 >Breast Cancer Detector</h2>
 
 <div>
     <form id="upload-file" method="post" enctype="multipart/form-data">
         <label for="imageUpload" class="upload-label">
-            Choose...
+            Upload the mammography film
         </label>
         <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
     </form>
@@ -27,5 +27,31 @@
     </h3>
 
 </div>
+</div>
 
+<div class="row">
+    <div class="col-md-6" style="margin:2rem auto 0 auto;">
+        <p class="display-4" id="about" name="about" style="text-align: center;">
+            About
+        </p>
+        <hr>
+        <p class="lead" style="text-align: center;">
+            This is a Breast Cancer Detector Web App.<br>Our model is based on genetic programming and machine learning algorithms aimed at building a system that accurately distinguishes between benign and malignant breast tumors. 
+        </p>
+
+    </div>
+</div>
+<div class="cp-popup-content cpro-active-step  cp-slide_in   bottom-right   cp-panel-1" data-entry-animation="cp-slideInRight" data-overlay-click="1" data-title="Exit intent | Free Guide – Website setup – [Desktop]" data-module-type="slide_in" data-step="1" data-width="350" data-mobile-width="320" data-height="350" data-mobile-height="320" data-mobile-break-pt="767" data-popup-position="bottom right" data-mobile-responsive="yes">
+    <div class="cpro-form-container">
+    <div id="cp_button-1-5220" class="cp-field-html-data   cp-none" data-type="cp_button" data-action="goto_url" data-step="1" data-redirect="https://colibriwp.com/website-setup-ebook/?utm_campaign=website-setup-ebook&#038;utm_medium=popup&#038;utm_source=desktop" data-redirect-target="_self">
+    <div class="cp-rotate-wrap"><button type="button" class=" cp-target cp-field-element cp-button cp-button-field" data-success-message="Thank You for Downloading!" data-get-param="false">GET THE GUIDE</button>
+    <div class="cp-btn-tooltip"></div>
+    </div></div>
+
+<div class="container-fluid">
+    <div class="row">
+        <footer class="fixed-bottom navbar-light" style="background: black;color: white;text-align: center;">
+            <p>Thanks for using our web app! </p> </footer> </div> </div> 
+            
+            
 {% endblock %}
