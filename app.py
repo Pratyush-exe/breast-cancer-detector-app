@@ -42,13 +42,13 @@ def upload():
     f.save(file_path)
 
     preds = model_predict(file_path, model)[0][0]
+    preds = round(preds, 2)
     string = 'Some Error occurred'
-    return str(preds)
-#     if pred > 0.5:
-#         string =  'Result: Cancerous Tissue Detected'
-#     else:
-#         string =  'Result: Non-Cancerous Tissue Detected'
-#     return string
+    if preds > 0.5:
+        string =  'Result: Cancerous Tissue Detected'
+    else:
+        string =  'Result: Non-Cancerous Tissue Detected'
+    return string
 
 if __name__ == '__main__':
     app.run(debug=True)
