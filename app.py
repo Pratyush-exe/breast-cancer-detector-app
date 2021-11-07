@@ -42,7 +42,7 @@ def upload():
     f.save(file_path)
 
     preds = model_predict(file_path, model)[0][0]
-    result = str(preds)
+    result = "Non-Cancerous Tissue Detected" if pred <= 0.5 else "Cancerous Tissue Detected"
     return result
 
 
