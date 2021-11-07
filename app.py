@@ -45,9 +45,9 @@ def upload():
     preds = round(preds, 2)
     string = 'Some Error occurred'
     if preds > 0.5:
-        string =  'Result: Cancerous Tissue Detected'
+        string =  'Cancerous Tissue Detected'
     else:
-        string =  'Result: Non-Cancerous Tissue Detected'
+        string =  'Non-Cancerous Tissue Detected'
     return string
 
 if __name__ == '__main__':
