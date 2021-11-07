@@ -41,7 +41,7 @@ def upload():
         basepath, secure_filename(f.filename))
     f.save(file_path)
 
-    preds = model_predict(file_path, model)
+    preds = model_predict(file_path, model)[0][0]
     result = str(preds)
     return result
 
