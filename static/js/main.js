@@ -46,7 +46,6 @@ $(document).ready(function () {
                 $('.loader').hide();
                 $('#result').fadeIn(600);
                 $('#result').text(data);
-                console.log('Success!');
             },
         });
     });
