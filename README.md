@@ -1,4 +1,4 @@
-# Heroku-Demo
+# Breast Cancer Detector Web-App
 
 [Click here](https://breast-cancer-detector1.herokuapp.com/) for Web App.
 
